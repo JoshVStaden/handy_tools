@@ -13,7 +13,7 @@ setup(
                       'numpy',
                       'seaborn',
                       'sklearn',
-                      'skimage'                     
+                      'scikit-image'                     
                       ],
 
     classifiers=[

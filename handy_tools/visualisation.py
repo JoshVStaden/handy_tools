@@ -54,6 +54,14 @@ def _scree_plot(X, pca_values):
     
 
 def visualize_data(df,y, opts, pca_values=None):
+    """
+    Visualize the data
+
+    df: Input data
+    y: targets
+    opts: choices: ['vfm', 'scree', 'pair', 'swarm', 'heatmap', 'clustermap']
+
+    """
     df = pd.DataFrame(df)
     colnames = []
     for col in df.columns:
