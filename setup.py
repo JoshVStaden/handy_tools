@@ -1,16 +1,19 @@
 from setuptools import setup
 
 setup(
-    name='pyexample',
+    name='handy_tools',
     version='0.1.0',    
-    description='A example Python package',
-    url='https://github.com/shuds13/pyexample',
-    author='Stephen Hudson',
-    author_email='shudson@anl.gov',
+    description='A set of handy tools for machine learning',
+    url='https://github.com/JoshVStaden/handy_tools.git',
+    author='Joshua van Staden',
+    author_email='joshvstaden14@gmail.com',
     license='BSD 2-clause',
-    packages=['pyexample'],
-    install_requires=['mpi4py>=2.0',
-                      'numpy',                     
+    packages=['handy_tools'],
+    install_requires=['pandas',
+                      'numpy',
+                      'seaborn',
+                      'sklearn',
+                      'skimage'                     
                       ],
 
     classifiers=[
